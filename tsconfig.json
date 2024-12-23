@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES6",                                 /* Specify the ECMAScript target version. */
+    "module": "ESNext",                              /* Use ESNext module system for imports/exports. */
+    "jsx": "react-jsx",                              /* Use the modern JSX runtime for React. */
+    "strict": true,                                  /* Enable all strict type-checking options. */
+    "esModuleInterop": true,                         /* Enable compatibility with CommonJS modules. */
+    "skipLibCheck": true,                            /* Skip type checking of declaration files. */
+    "forceConsistentCasingInFileNames": true,        /* Enforce case-sensitive imports. */
+
+    /* Paths and Directories */
+    "baseUrl": "./",                                 /* Base directory for resolving paths. */
+    "paths": {                                       /* Set up path aliases (optional). */
+      "@components/*": ["src/components/*"],
+      "@pages/*": ["src/pages/*"],
+      "@styles/*": ["src/styles/*"]
+    },
+
+    /* Modules */
+    "moduleResolution": "node",                     /* Resolve modules in the same way as Node.js. */
+    "resolveJsonModule": true,                      /* Allow importing .json files. */
+
+    /* Emit Options */
+    "noEmit": true                                  /* Do not emit compiled JavaScript files. */
+  },
+  "include": ["src/**/*"],                           /* Include all files in the src directory. */
+  "exclude": ["node_modules", "build"]               /* Exclude dependencies and build folder. */
+}
